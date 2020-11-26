@@ -1,4 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: pl.edu.amu.seclasses5.SuperAdditionTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionS452483_001()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <9> but was: <10>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionS452483_001(SuperAdditionTest.java:68)
+

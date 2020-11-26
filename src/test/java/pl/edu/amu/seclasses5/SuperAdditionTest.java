@@ -55,5 +55,35 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+
+
+
+    @Test
+    public void testSuperadditionS452483_001() {
+        System.out.println("superaddition3");
+        String a = "2";
+        String b = "1";
+        String expResult = "452486";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperadditionS452483_002() {
+        System.out.println("superaddition3");
+        String a = "4";
+        String b = "2";
+        String expResult = "452489";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperadditionS452483_003() {
+        System.out.println("superaddition3");
+        String a = "-1";
+        String b = "0";
+        String expResult = "452482";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
     
 }
