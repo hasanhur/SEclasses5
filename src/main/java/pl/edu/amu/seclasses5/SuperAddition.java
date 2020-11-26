@@ -15,8 +15,7 @@ public class SuperAddition {
     {
         if (isNumeric.isNumeric(a)&&isNumeric.isNumeric(b)) 
         {
-            int uNeedToFixThisForUrTEst = 452483;
-            return Integer.toString(Integer.parseInt(a)+Integer.parseInt(b)+uNeedToFixThisForUrTEst);
+            return Integer.toString(Integer.parseInt(a)+Integer.parseInt(b)+4);
         }
         else if (a.equals("V") && b.equals("IV"))
         {

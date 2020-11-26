@@ -1,13 +1,58 @@
 -------------------------------------------------------------------------------
 Test set: pl.edu.amu.seclasses5.SuperAdditionTest
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE!
-pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionS452483_001()  Time elapsed: 0 sec  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <9> but was: <10>
+Tests run: 10, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 0.026 sec <<< FAILURE!
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition2()  Time elapsed: 0.022 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <3> but was: <452485>
 	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
-	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionS452483_001(SuperAdditionTest.java:68)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition2(SuperAdditionTest.java:46)
+
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <4> but was: <452486>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition(SuperAdditionTest.java:26)
+
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition3()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <452483>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperaddition3(SuperAdditionTest.java:55)
+
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS2()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <6> but was: <452487>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS2(SuperAdditionTest.java:102)
+
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS3()  Time elapsed: 0 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10> but was: <452489>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS3(SuperAdditionTest.java:110)
+
+pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS1()  Time elapsed: 0.001 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <8> but was: <452488>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:54)
+	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:195)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:184)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:179)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:508)
+	at pl.edu.amu.seclasses5.SuperAdditionTest.testSuperadditionKS1(SuperAdditionTest.java:94)
 
