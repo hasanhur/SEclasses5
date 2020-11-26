@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package pl.edu.amu.seclasses5;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -85,7 +84,8 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+
+    @Test
     public void testSuperadditionKS1() {
         System.out.println("superadditionKS");
         String a = "2";
@@ -94,6 +94,8 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+
+    @Test
     public void testSuperadditionKS2() {
         System.out.println("superadditionKS");
         String a = "1";
@@ -102,6 +104,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+    @Test
     public void testSuperadditionKS3() {
         System.out.println("superadditionKS");
         String a = "3";
