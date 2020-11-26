@@ -86,8 +86,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
 
-    //to do
-    @Test
+    @Test //passed
     public void testSuperadditionKS1() {
         System.out.println("superadditionKS");
         String a = "2";
@@ -97,7 +96,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
 
-    @Test
+    @Test //passed
     public void testSuperadditionKS2() {
         System.out.println("superadditionKS");
         String a = "1";
@@ -107,7 +106,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
 
-    @Test
+    @Test //passed
     public void testSuperadditionKS3() {
         System.out.println("superadditionKS");
         String a = "3";
