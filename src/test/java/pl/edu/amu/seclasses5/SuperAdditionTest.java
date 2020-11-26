@@ -28,7 +28,7 @@ public class SuperAdditionTest {
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
-    @Test
+    @Test //passed
     public void testSuperadditionRoman() {
         System.out.println("superadditionroman");
         String a = "V";
@@ -58,8 +58,8 @@ public class SuperAdditionTest {
 
 
 
-    @Test
-    public void testSuperadditionS452483_001() {
+    @Test //passed
+    public void testSuperadditionS452483_001() { //passed
         System.out.println("superaddition3");
         String a = "2";
         String b = "1";
@@ -67,7 +67,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    @Test
+    @Test //passed
     public void testSuperadditionS452483_002() {
         System.out.println("superaddition3");
         String a = "4";
@@ -76,7 +76,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    @Test
+    @Test //passed
     public void testSuperadditionS452483_003() {
         System.out.println("superaddition3");
         String a = "-1";
@@ -85,7 +85,9 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+
+    //to do
+    @Test
     public void testSuperadditionKS1() {
         System.out.println("superadditionKS");
         String a = "2";
@@ -94,6 +96,8 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+
+    @Test
     public void testSuperadditionKS2() {
         System.out.println("superadditionKS");
         String a = "1";
@@ -102,6 +106,8 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
+
+    @Test
     public void testSuperadditionKS3() {
         System.out.println("superadditionKS");
         String a = "3";
@@ -110,5 +116,36 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+
+    @Test
+    public void testSuperadditionMDMyterko1() {
+        System.out.println("superaddition");
+        String a = "I";
+        String b = "I";
+        String expAppend = "III";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expAppend, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
+    @Test
+    public void testSuperadditionMDMyterko2() {
+        System.out.println("superaddition");
+        String a = "3";
+        String b = "3";
+        String expDiv = "3";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expDiv, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
+    @Test
+    public void testSuperadditionMDMyterko3() {
+        System.out.println("superaddition");
+        boolean a = true;
+        boolean expSubstraction = false;
+        assertEquals(expSubstraction, a);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
 }
