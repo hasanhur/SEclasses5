@@ -29,4 +29,13 @@ public class SuperAdditionTest {
        // fail("The test case is a prototype.");
     }
     
+    public void testSuperadditionKS() {
+        System.out.println("superadditionKS");
+        String a = "2";
+        String b = "3";
+        String expResult = "8";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    
 }
