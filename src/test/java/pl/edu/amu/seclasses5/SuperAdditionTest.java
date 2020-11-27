@@ -143,7 +143,7 @@ public class SuperAdditionTest {
     }
 
     @Test
-    public void testSuperadditionMDM1() {
+    public void testSuperadditionMD1() {
         System.out.println("superaddition");
         String a = "I";
         String b = "I";
@@ -154,7 +154,7 @@ public class SuperAdditionTest {
         // fail("The test case is a prototype.");
     }
     @Test
-    public void testSuperadditionMDM2() {
+    public void testSuperadditionMD2() {
         System.out.println("superaddition");
         String a = "3";
         String b = "3";
@@ -165,7 +165,7 @@ public class SuperAdditionTest {
         // fail("The test case is a prototype.");
     }
     @Test
-    public void testSuperadditionMDM3() {
+    public void testSuperadditionMD3() {
         System.out.println("superaddition");
         boolean a = true;
         boolean expSubstraction = false;
