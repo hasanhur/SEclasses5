@@ -4,7 +4,6 @@
  * and open the template in the editor.
  */
 package pl.edu.amu.seclasses5;
-
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -28,7 +27,7 @@ public class SuperAdditionTest {
         // TODO review the generated test code and remove the default call to fail.
        // fail("The test case is a prototype.");
     }
-    @Test //passed
+    @Test
     public void testSuperadditionRoman() {
         System.out.println("superadditionroman");
         String a = "V";
@@ -58,8 +57,8 @@ public class SuperAdditionTest {
 
 
 
-    @Test //passed
-    public void testSuperadditionS452483_001() { //passed
+    @Test
+    public void testSuperadditionS452483_001() {
         System.out.println("superaddition3");
         String a = "2";
         String b = "1";
@@ -67,7 +66,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    @Test //passed
+    @Test
     public void testSuperadditionS452483_002() {
         System.out.println("superaddition3");
         String a = "4";
@@ -76,7 +75,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    @Test //passed
+    @Test
     public void testSuperadditionS452483_003() {
         System.out.println("superaddition3");
         String a = "-1";
@@ -86,7 +85,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
 
-    @Test //passed
+    @Test
     public void testSuperadditionKS1() {
         System.out.println("superadditionKS");
         String a = "2";
@@ -96,7 +95,7 @@ public class SuperAdditionTest {
         assertEquals(expResult, result);
     }
 
-    @Test //passed
+    @Test
     public void testSuperadditionKS2() {
         System.out.println("superadditionKS");
         String a = "1";
@@ -105,8 +104,7 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-
-    @Test //passed
+    @Test
     public void testSuperadditionKS3() {
         System.out.println("superadditionKS");
         String a = "3";
@@ -117,34 +115,31 @@ public class SuperAdditionTest {
     }
 
     @Test
-    public void testSuperadditionMDMyterko1() {
-        System.out.println("superaddition");
-        String a = "I";
-        String b = "I";
-        String expAppend = "III";
+    public void testSuperadditionDP1(){
+        System.out.println("superadditionDP1");
+        String a = "12";
+        String b = "1";
+        String expResult = "10";
         String result = SuperAddition.superaddition(a, b);
-        assertEquals(expAppend, result);
-        // TODO review the generated test code and remove the default call to fail.
-        // fail("The test case is a prototype.");
+        assertEquals(expResult, result);
     }
     @Test
-    public void testSuperadditionMDMyterko2() {
-        System.out.println("superaddition");
+    public void testSuperadditionDP2(){
+        System.out.println("superadditionDP1");
         String a = "3";
-        String b = "3";
-        String expDiv = "3";
+        String b = "0";
+        String expResult = "13";
         String result = SuperAddition.superaddition(a, b);
-        assertEquals(expDiv, result);
-        // TODO review the generated test code and remove the default call to fail.
-        // fail("The test case is a prototype.");
+        assertEquals(expResult, result);
     }
     @Test
-    public void testSuperadditionMDMyterko3() {
-        System.out.println("superaddition");
-        boolean a = true;
-        boolean expSubstraction = false;
-        assertEquals(expSubstraction, a);
-        // TODO review the generated test code and remove the default call to fail.
-        // fail("The test case is a prototype.");
+    public void testSuperadditionDP3(){
+        System.out.println("superadditionDP1");
+        String a = "-3";
+        String b = "-3";
+        String expResult = "6";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
     }
+    
 }
