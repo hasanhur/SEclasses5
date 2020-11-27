@@ -141,5 +141,36 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+
+    @Test
+    public void testSuperadditionMDM1() {
+        System.out.println("superaddition");
+        String a = "I";
+        String b = "I";
+        String expAppend = "III";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expAppend, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
+    @Test
+    public void testSuperadditionMDM2() {
+        System.out.println("superaddition");
+        String a = "3";
+        String b = "3";
+        String expDiv = "3";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expDiv, result);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
+    @Test
+    public void testSuperadditionMDM3() {
+        System.out.println("superaddition");
+        boolean a = true;
+        boolean expSubstraction = false;
+        assertEquals(expSubstraction, a);
+        // TODO review the generated test code and remove the default call to fail.
+        // fail("The test case is a prototype.");
+    }
 }
