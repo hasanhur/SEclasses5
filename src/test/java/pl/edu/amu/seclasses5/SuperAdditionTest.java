@@ -167,4 +167,29 @@ public class SuperAdditionTest {
         boolean expSubstraction = false;
         assertEquals(expSubstraction, a);
     }
+    
+    @Test
+    public void testSuperadditionAK1(){
+        String a = "X";
+        String b = "1";
+        String expResult="11";
+        String result = SuperAddition.superaddition(a,b);
+        assertEquals(expResult,result);
+    }
+        @Test
+    public void testSuperadditionAK2(){
+        String a = "15";
+        String b = "-X";
+        String expResult = "V";
+        assertEquals(expResult,SuperAddition.superaddition(a,b));
+    }
+        @Test
+    public void testSuperadditionAK3(){
+        String a ="0";
+        String b="III";
+        String expResult="3";
+        String result = SuperAddition.superaddition(a,b);
+        assertEquals(expResult,result);
+        
+    }
 }
