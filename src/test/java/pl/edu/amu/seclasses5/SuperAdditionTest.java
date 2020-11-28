@@ -147,18 +147,18 @@ public class SuperAdditionTest {
         System.out.println("superaddition");
         String a = "I";
         String b = "I";
-        String expAppend = "III";
+        String expResult = "II";
         String result = SuperAddition.superaddition(a, b);
-        assertEquals(expAppend, result);
+        assertEquals(expResult, result);
     }
     @Test
     public void testSuperadditionMD2() {
         System.out.println("superaddition");
         String a = "3";
         String b = "3";
-        String expDiv = "3";
+        String expResult = "18";
         String result = SuperAddition.superaddition(a, b);
-        assertEquals(expDiv, result);
+        assertEquals(expResult, result);
     }
     @Test
     public void testSuperadditionMD3() {
@@ -166,5 +166,33 @@ public class SuperAdditionTest {
         boolean a = true;
         boolean expSubstraction = false;
         assertEquals(expSubstraction, a);
+        //????????????????
+    }
+    @Test
+    public void testSuperaddition452496_1(){
+        System.out.println("Michał Osiński");
+        String a = "6";
+        String b = "6";
+        String expResult = "13";
+        String result = SuperAddition.superaddition(a,b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition452496_2(){
+        System.out.println("Michał Osiński");
+        String a = "9";
+        String b = "-2";
+        String expResult = "19";
+        String result = SuperAddition.superaddition(a,b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperaddition452496_3(){
+        System.out.println("Michał Osiński");
+        String a = "8";
+        String b = "9";
+        String expResult = "1";
+        String result = SuperAddition.superaddition(a,b);
+        assertEquals(expResult, result);
     }
 }
