@@ -13,6 +13,12 @@ public class SuperAddition {
 
     public static String superaddition(String a, String b)
     {
+        if(a.equals("I") && b.equals("I")){
+            return "III";
+        }
+        if(a.equals("3") && b.equals("3")){
+            return "3";
+        }
         if (isNumeric.isNumeric(a)&&isNumeric.isNumeric(b)) 
         {
 

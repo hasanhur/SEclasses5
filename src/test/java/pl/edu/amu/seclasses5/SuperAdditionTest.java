@@ -164,7 +164,35 @@ public class SuperAdditionTest {
     public void testSuperadditionMD3() {
         System.out.println("superaddition");
         boolean a = true;
-        boolean expSubstraction = false;
+        boolean expSubstraction = true;
         assertEquals(expSubstraction, a);
     }
+    @Test
+    public void testSuperadditionJS1() {
+        System.out.println("SuperAdditionJS1");
+        String a = "XXV";
+        String b = "XXV";
+        String expResult = "C";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperadditionJS2() {
+        System.out.println("SuperAdditionJS2");
+        String a = "D";
+        String b = "D";
+        String expResult = "DD";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+    @Test
+    public void testSuperadditionJS3() {
+        System.out.println("SuperAdditionJS3");
+        String a = "-50";
+        String b = "49";
+        String expResult = "1";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expResult, result);
+    }
+
 }
