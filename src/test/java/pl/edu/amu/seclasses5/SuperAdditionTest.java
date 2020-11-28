@@ -141,5 +141,30 @@ public class SuperAdditionTest {
         String result = SuperAddition.superaddition(a, b);
         assertEquals(expResult, result);
     }
-    
+
+    @Test
+    public void testSuperadditionMD1() {
+        System.out.println("superaddition");
+        String a = "I";
+        String b = "I";
+        String expAppend = "III";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expAppend, result);
+    }
+    @Test
+    public void testSuperadditionMD2() {
+        System.out.println("superaddition");
+        String a = "3";
+        String b = "3";
+        String expDiv = "3";
+        String result = SuperAddition.superaddition(a, b);
+        assertEquals(expDiv, result);
+    }
+    @Test
+    public void testSuperadditionMD3() {
+        System.out.println("superaddition");
+        boolean a = true;
+        boolean expSubstraction = false;
+        assertEquals(expSubstraction, a);
+    }
 }
